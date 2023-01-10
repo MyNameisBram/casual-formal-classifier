@@ -24,10 +24,6 @@ from sklearn.pipeline import Pipeline
 # path 
 path = "./models/casual_formal"
 
-# load scalers
-path = '/Users/bramtunggala/CrystalKnows/project-06-style-classifier/03-models/casual_formal'
-path_git = './models'
-
 # create new features from text 
 def preprocess(text):
     df = pd.DataFrame(text,columns=['sentence'],index=[0])
